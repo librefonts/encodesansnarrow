@@ -1,0 +1,1275 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/encodesansnarrow/METADATA.json /home/travis/build/fontdirectory/encodesansnarrow/builds/build
+$ cp -a /home/travis/build/fontdirectory/encodesansnarrow/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/encodesansnarrow/builds/build
+$ cp -a /home/travis/build/fontdirectory/encodesansnarrow/FONTLOG.txt /home/travis/build/fontdirectory/encodesansnarrow/builds/build
+$ cp -a EncodeSansNarrow-Thin.ttf.ttx EncodeSansNarrow-SemiBold.ttf.ttx EncodeSansNarrow-Regular.ttf.ttx EncodeSansNarrow-Medium.ttf.ttx EncodeSansNarrow-Light.ttf.ttx EncodeSansNarrow-ExtraLight.ttf.ttx EncodeSansNarrow-ExtraBold.ttf.ttx EncodeSansNarrow-Bold.ttf.ttx EncodeSansNarrow-Black.ttf.ttx EncodeSansNarrow-Thin.ttf._p_r_e_p.ttx EncodeSansNarrow-Thin.ttf._p_o_s_t.ttx EncodeSansNarrow-Thin.ttf._n_a_m_e.ttx EncodeSansNarrow-Thin.ttf._m_a_x_p.ttx EncodeSansNarrow-Thin.ttf._l_o_c_a.ttx EncodeSansNarrow-Thin.ttf._h_m_t_x.ttx EncodeSansNarrow-Thin.ttf._h_h_e_a.ttx EncodeSansNarrow-Thin.ttf._h_e_a_d.ttx EncodeSansNarrow-Thin.ttf._g_l_y_f.ttx EncodeSansNarrow-Thin.ttf._g_a_s_p.ttx EncodeSansNarrow-Thin.ttf._f_p_g_m.ttx EncodeSansNarrow-Thin.ttf._c_v_t.ttx EncodeSansNarrow-Thin.ttf._c_m_a_p.ttx EncodeSansNarrow-Thin.ttf.O_S_2f_2.ttx EncodeSansNarrow-Thin.ttf.GlyphOrder.ttx EncodeSansNarrow-Thin.ttf.G_S_U_B_.ttx EncodeSansNarrow-Thin.ttf.G_P_O_S_.ttx EncodeSansNarrow-SemiBold.ttf._p_r_e_p.ttx EncodeSansNarrow-SemiBold.ttf._p_o_s_t.ttx EncodeSansNarrow-SemiBold.ttf._n_a_m_e.ttx EncodeSansNarrow-SemiBold.ttf._m_a_x_p.ttx EncodeSansNarrow-SemiBold.ttf._l_o_c_a.ttx EncodeSansNarrow-SemiBold.ttf._h_m_t_x.ttx EncodeSansNarrow-SemiBold.ttf._h_h_e_a.ttx EncodeSansNarrow-SemiBold.ttf._h_e_a_d.ttx EncodeSansNarrow-SemiBold.ttf._g_l_y_f.ttx EncodeSansNarrow-SemiBold.ttf._g_a_s_p.ttx EncodeSansNarrow-SemiBold.ttf._f_p_g_m.ttx EncodeSansNarrow-SemiBold.ttf._c_v_t.ttx EncodeSansNarrow-SemiBold.ttf._c_m_a_p.ttx EncodeSansNarrow-SemiBold.ttf.O_S_2f_2.ttx EncodeSansNarrow-SemiBold.ttf.GlyphOrder.ttx EncodeSansNarrow-SemiBold.ttf.G_S_U_B_.ttx EncodeSansNarrow-SemiBold.ttf.G_P_O_S_.ttx EncodeSansNarrow-Regular.ttf._p_r_e_p.ttx EncodeSansNarrow-Regular.ttf._p_o_s_t.ttx EncodeSansNarrow-Regular.ttf._n_a_m_e.ttx EncodeSansNarrow-Regular.ttf._m_a_x_p.ttx EncodeSansNarrow-Regular.ttf._l_o_c_a.ttx EncodeSansNarrow-Regular.ttf._h_m_t_x.ttx EncodeSansNarrow-Regular.ttf._h_h_e_a.ttx EncodeSansNarrow-Regular.ttf._h_e_a_d.ttx EncodeSansNarrow-Regular.ttf._g_l_y_f.ttx EncodeSansNarrow-Regular.ttf._g_a_s_p.ttx EncodeSansNarrow-Regular.ttf._f_p_g_m.ttx EncodeSansNarrow-Regular.ttf._c_v_t.ttx EncodeSansNarrow-Regular.ttf._c_m_a_p.ttx EncodeSansNarrow-Regular.ttf.O_S_2f_2.ttx EncodeSansNarrow-Regular.ttf.GlyphOrder.ttx EncodeSansNarrow-Regular.ttf.G_S_U_B_.ttx EncodeSansNarrow-Regular.ttf.G_P_O_S_.ttx EncodeSansNarrow-Medium.ttf._p_r_e_p.ttx EncodeSansNarrow-Medium.ttf._p_o_s_t.ttx EncodeSansNarrow-Medium.ttf._n_a_m_e.ttx EncodeSansNarrow-Medium.ttf._m_a_x_p.ttx EncodeSansNarrow-Medium.ttf._l_o_c_a.ttx EncodeSansNarrow-Medium.ttf._h_m_t_x.ttx EncodeSansNarrow-Medium.ttf._h_h_e_a.ttx EncodeSansNarrow-Medium.ttf._h_e_a_d.ttx EncodeSansNarrow-Medium.ttf._g_l_y_f.ttx EncodeSansNarrow-Medium.ttf._g_a_s_p.ttx EncodeSansNarrow-Medium.ttf._f_p_g_m.ttx EncodeSansNarrow-Medium.ttf._c_v_t.ttx EncodeSansNarrow-Medium.ttf._c_m_a_p.ttx EncodeSansNarrow-Medium.ttf.O_S_2f_2.ttx EncodeSansNarrow-Medium.ttf.GlyphOrder.ttx EncodeSansNarrow-Medium.ttf.G_S_U_B_.ttx EncodeSansNarrow-Medium.ttf.G_P_O_S_.ttx EncodeSansNarrow-Light.ttf._p_r_e_p.ttx EncodeSansNarrow-Light.ttf._p_o_s_t.ttx EncodeSansNarrow-Light.ttf._n_a_m_e.ttx EncodeSansNarrow-Light.ttf._m_a_x_p.ttx EncodeSansNarrow-Light.ttf._l_o_c_a.ttx EncodeSansNarrow-Light.ttf._h_m_t_x.ttx EncodeSansNarrow-Light.ttf._h_h_e_a.ttx EncodeSansNarrow-Light.ttf._h_e_a_d.ttx EncodeSansNarrow-Light.ttf._g_l_y_f.ttx EncodeSansNarrow-Light.ttf._g_a_s_p.ttx EncodeSansNarrow-Light.ttf._f_p_g_m.ttx EncodeSansNarrow-Light.ttf._c_v_t.ttx EncodeSansNarrow-Light.ttf._c_m_a_p.ttx EncodeSansNarrow-Light.ttf.O_S_2f_2.ttx EncodeSansNarrow-Light.ttf.GlyphOrder.ttx EncodeSansNarrow-Light.ttf.G_S_U_B_.ttx EncodeSansNarrow-Light.ttf.G_P_O_S_.ttx EncodeSansNarrow-ExtraLight.ttf._p_r_e_p.ttx EncodeSansNarrow-ExtraLight.ttf._p_o_s_t.ttx EncodeSansNarrow-ExtraLight.ttf._n_a_m_e.ttx EncodeSansNarrow-ExtraLight.ttf._m_a_x_p.ttx EncodeSansNarrow-ExtraLight.ttf._l_o_c_a.ttx EncodeSansNarrow-ExtraLight.ttf._h_m_t_x.ttx EncodeSansNarrow-ExtraLight.ttf._h_h_e_a.ttx EncodeSansNarrow-ExtraLight.ttf._h_e_a_d.ttx EncodeSansNarrow-ExtraLight.ttf._g_l_y_f.ttx EncodeSansNarrow-ExtraLight.ttf._g_a_s_p.ttx EncodeSansNarrow-ExtraLight.ttf._f_p_g_m.ttx EncodeSansNarrow-ExtraLight.ttf._c_v_t.ttx EncodeSansNarrow-ExtraLight.ttf._c_m_a_p.ttx EncodeSansNarrow-ExtraLight.ttf.O_S_2f_2.ttx EncodeSansNarrow-ExtraLight.ttf.GlyphOrder.ttx EncodeSansNarrow-ExtraLight.ttf.G_S_U_B_.ttx EncodeSansNarrow-ExtraLight.ttf.G_P_O_S_.ttx EncodeSansNarrow-ExtraBold.ttf._p_r_e_p.ttx EncodeSansNarrow-ExtraBold.ttf._p_o_s_t.ttx EncodeSansNarrow-ExtraBold.ttf._n_a_m_e.ttx EncodeSansNarrow-ExtraBold.ttf._m_a_x_p.ttx EncodeSansNarrow-ExtraBold.ttf._l_o_c_a.ttx EncodeSansNarrow-ExtraBold.ttf._h_m_t_x.ttx EncodeSansNarrow-ExtraBold.ttf._h_h_e_a.ttx EncodeSansNarrow-ExtraBold.ttf._h_e_a_d.ttx EncodeSansNarrow-ExtraBold.ttf._g_l_y_f.ttx EncodeSansNarrow-ExtraBold.ttf._g_a_s_p.ttx EncodeSansNarrow-ExtraBold.ttf._f_p_g_m.ttx EncodeSansNarrow-ExtraBold.ttf._c_v_t.ttx EncodeSansNarrow-ExtraBold.ttf._c_m_a_p.ttx EncodeSansNarrow-ExtraBold.ttf.O_S_2f_2.ttx EncodeSansNarrow-ExtraBold.ttf.GlyphOrder.ttx EncodeSansNarrow-ExtraBold.ttf.G_S_U_B_.ttx EncodeSansNarrow-ExtraBold.ttf.G_P_O_S_.ttx EncodeSansNarrow-Bold.ttf._p_r_e_p.ttx EncodeSansNarrow-Bold.ttf._p_o_s_t.ttx EncodeSansNarrow-Bold.ttf._n_a_m_e.ttx EncodeSansNarrow-Bold.ttf._m_a_x_p.ttx EncodeSansNarrow-Bold.ttf._l_o_c_a.ttx EncodeSansNarrow-Bold.ttf._h_m_t_x.ttx EncodeSansNarrow-Bold.ttf._h_h_e_a.ttx EncodeSansNarrow-Bold.ttf._h_e_a_d.ttx EncodeSansNarrow-Bold.ttf._g_l_y_f.ttx EncodeSansNarrow-Bold.ttf._g_a_s_p.ttx EncodeSansNarrow-Bold.ttf._f_p_g_m.ttx EncodeSansNarrow-Bold.ttf._c_v_t.ttx EncodeSansNarrow-Bold.ttf._c_m_a_p.ttx EncodeSansNarrow-Bold.ttf.O_S_2f_2.ttx EncodeSansNarrow-Bold.ttf.GlyphOrder.ttx EncodeSansNarrow-Bold.ttf.G_S_U_B_.ttx EncodeSansNarrow-Bold.ttf.G_P_O_S_.ttx EncodeSansNarrow-Black.ttf._p_r_e_p.ttx EncodeSansNarrow-Black.ttf._p_o_s_t.ttx EncodeSansNarrow-Black.ttf._n_a_m_e.ttx EncodeSansNarrow-Black.ttf._m_a_x_p.ttx EncodeSansNarrow-Black.ttf._l_o_c_a.ttx EncodeSansNarrow-Black.ttf._h_m_t_x.ttx EncodeSansNarrow-Black.ttf._h_h_e_a.ttx EncodeSansNarrow-Black.ttf._h_e_a_d.ttx EncodeSansNarrow-Black.ttf._g_l_y_f.ttx EncodeSansNarrow-Black.ttf._g_a_s_p.ttx EncodeSansNarrow-Black.ttf._f_p_g_m.ttx EncodeSansNarrow-Black.ttf._c_v_t.ttx EncodeSansNarrow-Black.ttf._c_m_a_p.ttx EncodeSansNarrow-Black.ttf.O_S_2f_2.ttx EncodeSansNarrow-Black.ttf.GlyphOrder.ttx EncodeSansNarrow-Black.ttf.G_S_U_B_.ttx EncodeSansNarrow-Black.ttf.G_P_O_S_.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ bakery-lint.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Black.ttf.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Bold.ttf.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-ExtraBold.ttf.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-ExtraLight.ttf.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Light.ttf.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Medium.ttf.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Regular.ttf.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-SemiBold.ttf.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Thin.ttf.ttx > fontaine.txt
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+end of pyfontaine process
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ bakery-lint.py upstream-ttx EncodeSansNarrow-Black.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Black.ttf.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Black.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx EncodeSansNarrow-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Bold.ttf.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx EncodeSansNarrow-ExtraBold.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-ExtraBold.ttf.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-ExtraBold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx EncodeSansNarrow-ExtraLight.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-ExtraLight.ttf.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-ExtraLight.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): FAIL
+$ bakery-lint.py upstream-ttx EncodeSansNarrow-Light.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Light.ttf.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Light.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx EncodeSansNarrow-Medium.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Medium.ttf.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Medium.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx EncodeSansNarrow-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Regular.ttf.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx EncodeSansNarrow-SemiBold.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-SemiBold.ttf.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-SemiBold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx EncodeSansNarrow-Thin.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Thin.ttf.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Thin.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/encodesansnarrow/builds/build /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Thin.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-SemiBold.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Regular.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Medium.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Light.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-ExtraLight.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-ExtraBold.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Bold.ttx /home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Black.ttx
+Compiling "/home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Thin.ttx" to "/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-SemiBold.ttx" to "/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Regular.ttx" to "/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Medium.ttx" to "/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Light.ttx" to "/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-ExtraLight.ttx" to "/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-ExtraBold.ttx" to "/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Bold.ttx" to "/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/encodesansnarrow/builds/build/sources/EncodeSansNarrow-Black.ttx" to "/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+### Test EncodeSansNarrow-Thin.ttf
+$ bakery-lint.py result EncodeSansNarrow-Thin.ttf
+### Test EncodeSansNarrow-SemiBold.ttf
+$ bakery-lint.py result EncodeSansNarrow-SemiBold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+### Test EncodeSansNarrow-Regular.ttf
+$ bakery-lint.py result EncodeSansNarrow-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+### Test EncodeSansNarrow-Medium.ttf
+$ bakery-lint.py result EncodeSansNarrow-Medium.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+### Test EncodeSansNarrow-Light.ttf
+$ bakery-lint.py result EncodeSansNarrow-Light.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+### Test EncodeSansNarrow-ExtraLight.ttf
+$ bakery-lint.py result EncodeSansNarrow-ExtraLight.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+### Test EncodeSansNarrow-ExtraBold.ttf
+$ bakery-lint.py result EncodeSansNarrow-ExtraBold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+### Test EncodeSansNarrow-Bold.ttf
+$ bakery-lint.py result EncodeSansNarrow-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+### (5 of 6) Generate METADATA.json (genmetadata.py)
+$ genmetadata.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build
+{} exists
+### Test EncodeSansNarrow-Black.ttf
+$ bakery-lint.py result EncodeSansNarrow-Black.ttf
+Designer's name from font is: Pablo Impallari, Andres Torresi
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+Original size: 190936\nGzip size: 88580
+Family Name: Encode Sans Narrow
+PS Name: EncodeSansNarrow-Black
+Full Name: Encode Sans Narrow Black
+Style: normal
+Weight: 900
+Filename: EncodeSansNarrow-Black.ttf
+Copyright: Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans.
+Family Name: Encode Sans Narrow
+PS Name: EncodeSansNarrow-Bold
+Full Name: Encode Sans Narrow Bold
+Style: normal
+Weight: 700
+Filename: EncodeSansNarrow-Bold.ttf
+Copyright: Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans.
+Family Name: Encode Sans Narrow
+PS Name: EncodeSansNarrow-ExtraBold
+Full Name: Encode Sans Narrow ExtraBold
+Style: normal
+Weight: 800
+Filename: EncodeSansNarrow-ExtraBold.ttf
+Copyright: Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans.
+Family Name: Encode Sans Narrow
+PS Name: EncodeSansNarrow-ExtraLight
+Full Name: Encode Sans Narrow ExtraLight
+Style: normal
+Weight: 200
+Filename: EncodeSansNarrow-ExtraLight.ttf
+Copyright: Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans.
+Family Name: Encode Sans Narrow
+PS Name: EncodeSansNarrow-Light
+Full Name: Encode Sans Narrow Light
+Style: normal
+Weight: 300
+Filename: EncodeSansNarrow-Light.ttf
+Copyright: Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans.
+Family Name: Encode Sans Narrow
+PS Name: EncodeSansNarrow-Medium
+Full Name: Encode Sans Narrow Medium
+Style: normal
+Weight: 500
+Filename: EncodeSansNarrow-Medium.ttf
+Copyright: Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans.
+Family Name: Encode Sans Narrow
+PS Name: EncodeSansNarrow-Regular
+Full Name: Encode Sans Narrow
+Style: normal
+Weight: 400
+Filename: EncodeSansNarrow-Regular.ttf
+Copyright: Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans.
+Family Name: Encode Sans Narrow
+PS Name: EncodeSansNarrow-SemiBold
+Full Name: Encode Sans Narrow SemiBold
+Style: normal
+Weight: 600
+Filename: EncodeSansNarrow-SemiBold.ttf
+Copyright: Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans.
+Family Name: Encode Sans Narrow
+PS Name: EncodeSansNarrow-Thin
+Full Name: Encode Sans Narrow Thin
+Style: normal
+Weight: 250
+Filename: EncodeSansNarrow-Thin.ttf
+Copyright: Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans.
+### (6 of 6) Run tests for METADATA.json
+$ bakery-lint.py metadata METADATA.json
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_latin(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_latin_ext(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_menu(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_more_than_500b(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_valid_html(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_daltonmaag_catalogue(): FAIL
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontbureau_catalogue(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontscom_catalogue(): FAIL
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontshop_catalogue(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontsmith_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_houseind_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_myfonts_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_veer_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_family_is_listed_in_gwf(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_atleast_latin_menu_subsets_exist(): OK
+/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/tests/metadata_test.py:141: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  self.assertTrue(designer in designers,
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_designer_exists_in_profiles_csv(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_items_dicts(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_no_dupes(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_has_unique_style_weight_pairs(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_license(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_no_unknown_top_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_subsets_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_top_keys_types(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_contains_correct_rfn(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_is_consistent_across_family(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_matches_pattern(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_metadata_copyright_size(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_font_name_matches_family(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_family(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_family_values_are_all_the_same(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_filename_matches_postScriptName(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_font_have_regular(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fonts_fields_have_fontname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_is_equal_to_internal_font_fullname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_matches_postScriptName(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_postScriptName_matches_ttf_fontname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_400(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_normal(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_copyrighttxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_description_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_fontlogtxt_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_licensetxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_subsets_exists.CheckSubsetsExist.test_check_subsets_exists(): FAIL
+bakery_lint.tests.downstream.test_check_monospace_agreements.CheckMonospaceAgreement.test_check_monospace_agreement(): OK
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckItalicStyleMatchesMacStyle.test_check_italic_style_matches_names(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckNormalStyleMatchesMacStyle.test_check_normal_style_matches_names(): OK
+bakery_lint.tests.downstream.test_check_metadata_matches_nametable.CheckMetadataMatchesNameTable.test_check_metadata_matches_nametable(): OK
+bakery_lint.tests.downstream.test_check_metadata_fields.CheckMetadataFields.test_check_metadata_fields(): OK
+bakery_lint.tests.downstream.test_check_menu_contains_proper_glyphs.CheckMenuSubsetContainsProperGlyphs.test_check_menu_contains_proper_glyphs(): ERROR
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_encodings_of_glyphs_across_family(): OK
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_names_of_glyphs_across_family(): OK
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_number_of_glyphs_across_family(): OK
+bakery_lint.tests.downstream.test_check_font_name_not_in_camelcase.CheckFontNameNotInCamelCase.test_fontname_not_in_camel_case(): OK
+bakery_lint.tests.downstream.test_check_files_menu_agreements.CheckFontsMenuAgreements.test_menu_file_agreement(): FAIL
+bakery_lint.tests.downstream.test_check_familyname_matches_fontnames.CheckFamilyNameMatchesFontNames.test_check_familyname_matches_fontnames(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckCanonicalWeights.test_check_canonical_weights(): FAIL
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckPostScriptNameMatchesWeight.test_postscriptname_contains_correct_weight(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFontWeightSameAsInMetadata.test_font_weight_same_as_in_metadata(): FAIL
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFullNameEqualCanonicalName.test_metadata_contains_current_font(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_canonical_styles.CheckCanonicalStyles.test_check_canonical_styles(): OK
+bakery_lint.tests.downstream.test_check_canonical_filenames.CheckCanonicalFilenames.test_check_canonical_filenames(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+### Optimize TTF EncodeSansNarrow-Thin.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+### Optimize TTF EncodeSansNarrow-ExtraBold.ttf
+### Optimize TTF EncodeSansNarrow-Regular.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf
+### Optimize TTF EncodeSansNarrow-ExtraLight.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf
+### Optimize TTF EncodeSansNarrow-Bold.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf
+### Optimize TTF EncodeSansNarrow-Black.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf
+### Optimize TTF EncodeSansNarrow-Light.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+### Optimize TTF EncodeSansNarrow-Medium.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf.fix /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+$ ls -l 'EncodeSansNarrow-Thin.ttf'* # look at the size savings of that subset process
+EncodeSansNarrow-Thin.ttf.opt: 179348 bytes
+EncodeSansNarrow-Thin.ttf: 187896 bytes
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf.opt /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf
+### Autohint TTFs (ttfautohint) EncodeSansNarrow-Thin.ttf
+### Optimize TTF EncodeSansNarrow-SemiBold.ttf
+$ ls -l 'EncodeSansNarrow-ExtraBold.ttf'* # look at the size savings of that subset process
+EncodeSansNarrow-ExtraBold.ttf.opt: 194164 bytes
+EncodeSansNarrow-ExtraBold.ttf: 202732 bytes
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf.opt /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf
+### Autohint TTFs (ttfautohint) EncodeSansNarrow-ExtraBold.ttf
+$ ls -l /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf: 179348 bytes
+/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.autohint.ttf: 198312 bytes
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.autohint.ttf /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf
+### Subset TTFs (pyftsubset) EncodeSansNarrow-Thin.ttf
+$ ls -l 'EncodeSansNarrow-Regular.ttf'* # look at the size savings of that subset process
+EncodeSansNarrow-Regular.ttf.opt: 190820 bytes
+EncodeSansNarrow-Regular.ttf: 199344 bytes
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf.opt /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf
+### Autohint TTFs (ttfautohint) EncodeSansNarrow-Regular.ttf
+$ ls -l /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf: 194164 bytes
+/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.autohint.ttf: 212984 bytes
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.autohint.ttf /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf
+### Subset TTFs (pyftsubset) EncodeSansNarrow-ExtraBold.ttf
+$ ls -l /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf: 190820 bytes
+/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.autohint.ttf: 206012 bytes
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.autohint.ttf /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf
+### Subset TTFs (pyftsubset) EncodeSansNarrow-Regular.ttf
+$ ls -l 'EncodeSansNarrow-ExtraLight.ttf'* # look at the size savings of that subset process
+EncodeSansNarrow-ExtraLight.ttf.opt: 185056 bytes
+EncodeSansNarrow-ExtraLight.ttf: 193628 bytes
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf.opt /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf
+### Autohint TTFs (ttfautohint) EncodeSansNarrow-ExtraLight.ttf
+Generate EncodeSansNarrow-Thin.latin
+$ ls -l /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf: 185056 bytes
+/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.autohint.ttf: 200400 bytes
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.autohint.ttf /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf
+### Subset TTFs (pyftsubset) EncodeSansNarrow-ExtraLight.ttf
+$ ls -l 'EncodeSansNarrow-Black.ttf'* # look at the size savings of that subset process
+EncodeSansNarrow-Black.ttf.opt: 186260 bytes
+EncodeSansNarrow-Black.ttf: 194812 bytes
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf.opt /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf
+### Autohint TTFs (ttfautohint) EncodeSansNarrow-Black.ttf
+$ ls -l 'EncodeSansNarrow-Bold.ttf'* # look at the size savings of that subset process
+EncodeSansNarrow-Bold.ttf.opt: 193296 bytes
+EncodeSansNarrow-Bold.ttf: 201840 bytes
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf.opt /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf
+### Autohint TTFs (ttfautohint) EncodeSansNarrow-Bold.ttf
+Generate EncodeSansNarrow-Thin.menu
+strippedname:/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Thin.ttf
+Generate EncodeSansNarrow-ExtraBold.latin
+Generate EncodeSansNarrow-Regular.latin
+$ ls -l /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf: 186260 bytes
+/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.autohint.ttf: 204224 bytes
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.autohint.ttf /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf
+### Subset TTFs (pyftsubset) EncodeSansNarrow-Black.ttf
+Generate EncodeSansNarrow-ExtraBold.menu
+strippedname:/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraBold.ttf
+$ ls -l /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf: 193296 bytes
+/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.autohint.ttf: 210048 bytes
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.autohint.ttf /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf
+### Subset TTFs (pyftsubset) EncodeSansNarrow-Bold.ttf
+Generate EncodeSansNarrow-Regular.menu
+strippedname:/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Regular.ttf
+$ ls -l 'EncodeSansNarrow-Light.ttf'* # look at the size savings of that subset process
+EncodeSansNarrow-Light.ttf.opt: 190564 bytes
+EncodeSansNarrow-Light.ttf: 199116 bytes
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf.opt /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf
+### Autohint TTFs (ttfautohint) EncodeSansNarrow-Light.ttf
+Generate EncodeSansNarrow-ExtraLight.latin
+$ ls -l 'EncodeSansNarrow-Medium.ttf'* # look at the size savings of that subset process
+EncodeSansNarrow-Medium.ttf.opt: 191860 bytes
+EncodeSansNarrow-Medium.ttf: 200416 bytes
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf.opt /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf
+### Autohint TTFs (ttfautohint) EncodeSansNarrow-Medium.ttf
+$ ls -l /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf: 190564 bytes
+/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.autohint.ttf: 210032 bytes
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.autohint.ttf /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf
+### Subset TTFs (pyftsubset) EncodeSansNarrow-Light.ttf
+Generate EncodeSansNarrow-ExtraLight.menu
+strippedname:/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-ExtraLight.ttf
+Generate EncodeSansNarrow-Black.latin
+$ ls -l /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf: 191860 bytes
+/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.autohint.ttf: 208280 bytes
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.autohint.ttf /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf
+### Subset TTFs (pyftsubset) EncodeSansNarrow-Medium.ttf
+$ ls -l 'EncodeSansNarrow-SemiBold.ttf'* # look at the size savings of that subset process
+EncodeSansNarrow-SemiBold.ttf.opt: 199744 bytes
+EncodeSansNarrow-SemiBold.ttf: 208308 bytes
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf.opt /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf
+### Autohint TTFs (ttfautohint) EncodeSansNarrow-SemiBold.ttf
+Generate EncodeSansNarrow-Black.menu
+strippedname:/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Black.ttf
+Generate EncodeSansNarrow-Bold.latin
+$ ls -l /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf: 199744 bytes
+/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.autohint.ttf: 217752 bytes
+$ mv /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.autohint.ttf /home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf
+### Subset TTFs (pyftsubset) EncodeSansNarrow-SemiBold.ttf
+Generate EncodeSansNarrow-Bold.menu
+strippedname:/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Bold.ttf
+Generate EncodeSansNarrow-Light.latin
+Generate EncodeSansNarrow-Medium.latin
+Generate EncodeSansNarrow-Light.menu
+strippedname:/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Light.ttf
+Generate EncodeSansNarrow-Medium.menu
+strippedname:/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-Medium.ttf
+Generate EncodeSansNarrow-SemiBold.latin
+Generate EncodeSansNarrow-SemiBold.menu
+strippedname:/home/travis/build/fontdirectory/encodesansnarrow/builds/build/EncodeSansNarrow-SemiBold.ttf
+{
+  "name": "Encode Sans Narrow", 
+  "designer": "Impallari Type", 
+  "license": "OFL", 
+  "visibility": "Sandbox", 
+  "category": "Sans Serif", 
+  "size": 89901, 
+  "fonts": [
+    {
+      "name": "Encode Sans Narrow", 
+      "postScriptName": "EncodeSansNarrow-Black", 
+      "fullName": "Encode Sans Narrow Black", 
+      "style": "normal", 
+      "weight": 900, 
+      "filename": "EncodeSansNarrow-Black.ttf", 
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    }, 
+    {
+      "name": "Encode Sans Narrow", 
+      "postScriptName": "EncodeSansNarrow-Bold", 
+      "fullName": "Encode Sans Narrow Bold", 
+      "style": "normal", 
+      "weight": 700, 
+      "filename": "EncodeSansNarrow-Bold.ttf", 
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    }, 
+    {
+      "name": "Encode Sans Narrow", 
+      "postScriptName": "EncodeSansNarrow-ExtraBold", 
+      "fullName": "Encode Sans Narrow ExtraBold", 
+      "style": "normal", 
+      "weight": 800, 
+      "filename": "EncodeSansNarrow-ExtraBold.ttf", 
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    }, 
+    {
+      "name": "Encode Sans Narrow", 
+      "postScriptName": "EncodeSansNarrow-ExtraLight", 
+      "fullName": "Encode Sans Narrow ExtraLight", 
+      "style": "normal", 
+      "weight": 200, 
+      "filename": "EncodeSansNarrow-ExtraLight.ttf", 
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    }, 
+    {
+      "name": "Encode Sans Narrow", 
+      "postScriptName": "EncodeSansNarrow-Light", 
+      "fullName": "Encode Sans Narrow Light", 
+      "style": "normal", 
+      "weight": 300, 
+      "filename": "EncodeSansNarrow-Light.ttf", 
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    }, 
+    {
+      "name": "Encode Sans Narrow", 
+      "postScriptName": "EncodeSansNarrow-Medium", 
+      "fullName": "Encode Sans Narrow Medium", 
+      "style": "normal", 
+      "weight": 500, 
+      "filename": "EncodeSansNarrow-Medium.ttf", 
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    }, 
+    {
+      "name": "Encode Sans Narrow", 
+      "postScriptName": "EncodeSansNarrow-Regular", 
+      "fullName": "Encode Sans Narrow", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "EncodeSansNarrow-Regular.ttf", 
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    }, 
+    {
+      "name": "Encode Sans Narrow", 
+      "postScriptName": "EncodeSansNarrow-SemiBold", 
+      "fullName": "Encode Sans Narrow SemiBold", 
+      "style": "normal", 
+      "weight": 600, 
+      "filename": "EncodeSansNarrow-SemiBold.ttf", 
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    }, 
+    {
+      "name": "Encode Sans Narrow", 
+      "postScriptName": "EncodeSansNarrow-Thin", 
+      "fullName": "Encode Sans Narrow Thin", 
+      "style": "normal", 
+      "weight": 250, 
+      "filename": "EncodeSansNarrow-Thin.ttf", 
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    }
+  ], 
+  "subsets": [
+    "latin"
+  ], 
+  "dateAdded": "2014-06-07"
+}
